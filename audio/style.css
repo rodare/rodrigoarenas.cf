@@ -11,31 +11,40 @@
 
 .container .btn1 {
 	position: absolute;
-  top: 40%;
+  top: 65%;
   left: 10%;
-  width: 20px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
   background: green;
   border-radius: 50%
 }
-
 .container .btn2 {
 	position: absolute;
-  top: 65%;
+  top: 53%;
   left: 10%;
-  width: 20px;
-  height: 20px;
-  background: blue;
+  width: 17px;
+  height: 17px;
+  background: red;
   border-radius: 50%
 }
 .container .btn3 {
 	position: absolute;
-  top: 52%;
+  top: 41%;
   left: 10%;
-  width: 20px;
-  height: 20px;
-  background: red;
+  width: 17px;
+  height: 17px;
+  background: blue;
   border-radius: 50%
+}
+
+.container .btn4 {
+	position: absolute;
+  top: 89%;
+  left: 10%;
+  width: 17px;
+  height: 10px;
+  background: brown;
+  border-radius: 10%
 }
 .container .btn:hover {
   background-color: black;
