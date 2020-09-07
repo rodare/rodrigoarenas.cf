@@ -93,6 +93,7 @@ $headers = 'From: '.$email_from."\r\n".
 		<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
 		<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
 		<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -104,7 +105,7 @@ $headers = 'From: '.$email_from."\r\n".
  <div class="navigation">
 	<ul>
 	<div class="dropdown">
-    <a href="index.html"><button class="dropbtn">Home</button></a>
+    <a href="index.html"><button class="dropbtn"><i class="fa fa-home"></i></button></a>
 </div>
 	<div class="dropdown">
    <a href="about.html"><button class="dropbtn">About</button></a>
@@ -133,7 +134,7 @@ $headers = 'From: '.$email_from."\r\n".
 <aside>
 	<ul>
 		<li><a href="news.html">News</a></li>
-		<li><a href="downloads.html">Downloads</a></li>
+		<li><a href="files.html">Files</a></li>
 		
 		<li><a href="links.html">Links</a></li>
 	</ul>

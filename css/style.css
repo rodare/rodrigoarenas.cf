@@ -1,4 +1,15 @@
-
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	text-align: justify;
+	text-justify: inter-word;
+	}
+	
+	.wrapper {
+		width: 100%;
+	}
 body{
 	font-family: helvetica;
     background-color: #d4c9c2;
@@ -32,7 +43,7 @@ header h3{
 }
 
 .wrap{
-	min-width: 600px;
+	min-width: 300px;
 	width: 96%;
 	margin: auto;
 	margin-top: 10px;
