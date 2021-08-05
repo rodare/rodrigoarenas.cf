@@ -19,7 +19,18 @@ a:hover{
 body{
 	font-family: helvetica;
     background-color: #d4c9c2;
+		position: relative;
 }
+
+.wrap{
+	min-width: 300px;
+	width: 96%;
+	height: 1500px;
+	margin: auto;
+	margin-top: 10px;
+	padding: 5px;
+	position: relative;
+	}
 
 header h1, h1 a{
 	margin: 0;
@@ -34,12 +45,12 @@ header h3{
 	text-align: left;
 	color: #FDE5C9;
 	text-decoration: none;
-	position: absolute;
+	position: relative;
 	}
 
 .elheader{
 	text-decoration: none;
-	margin: auto;
+	display: block;
 	height: 80px;
 	font-size: 36px;
 	color: black;
@@ -47,18 +58,10 @@ header h3{
 	text-align: left;
 }
 
-.wrap{
-	min-width: 300px;
-	width: 96%;
-	margin: auto;
-	margin-top: 10px;
-	padding: 5px;
-	overflow: hidden;
-	}
-
 .navigation{
-	margin: 0px;
-	abox-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	position: sticky;
+	top: 0px;
+	width: 100%;
 }
 
 .navigation li{
@@ -120,7 +123,6 @@ li a:hover {
 .content, aside{
 	height: 13000px;
 	margin: auto;
-		abox-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
 }
 
@@ -258,7 +260,6 @@ img {
 	      list-style-type: none;
 	      margin-top: -5px;
 	      padding: 0;
-	      overflow: hidden;
 	      background-color: #333;
 	    }
 
@@ -361,7 +362,6 @@ img {
 	       list-style-type: none;
 	       margin-top: -21px;
 	       padding: 0;
-	       overflow: hidden;
 	       background-color: #333;
 	     }
 	     li.elmenu a, .elmenu.dropbtn {
