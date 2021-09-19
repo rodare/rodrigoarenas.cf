@@ -35,9 +35,11 @@ li a:hover {
 	}
 
 body{
-	font-family: helvetica;
+		font-family: helvetica;
     background-color: #d4c9c2;
 		position: relative;
+		font-size: 12px;
+		line-height: 1.3;
 }
 
 .wrap{
@@ -46,7 +48,7 @@ body{
 	height: 1500px;
 	margin: auto;
 	margin-top: 10px;
-	padding: 5px;
+	padding: 0;
 	position: relative;
 	}
 
@@ -83,9 +85,10 @@ header h3{
 	display: block;
 	height: 42px;
 	font-size: 29px;
-	margin-top: 5px;
 	color: black;
 	background-color: #d4c9c2;
+	padding: 5px 0 0 0;
+	margin: 0;
 	position: relative;
 	text-align: left;
 }
@@ -366,22 +369,28 @@ img {
 		margin: 0 auto;
 	}
 
+body{
+	font-size: 15px;
+	line-height: 1.5;
+}
 	 .elheader{
-		height: 60px;
+		height: 70px;
 		font-size: 49px;
-		margin-top: 10px;
+		margin: 0;
+		background-color: #d4c9c2;
+		padding: 10px 0 0 0;
 	 }
 
 	 .content{
 	 	width: 89%;
 	 	padding: 1%;
-	 	margin-top: 100px;
+	 	margin-top: 110px;
 	 }
 
 	 aside {
 	 	width: 8%;
 	 	padding: 1%;
-	 	margin-top:94px;
+	 	margin-top:101px;
 		font-size: 19px;
 	 }
 	   .headline,
@@ -423,6 +432,7 @@ img {
 		 .dropbtn {
 		     padding: 12px;
 		     font-size: 20px;
+				 margin-top: 0px;
 
 		 }
 		 .dropdown-content a{
@@ -441,7 +451,9 @@ img {
 				 .elheader{
 					height: 70px;
 					font-size: 53px;
-					margin-top:15px;
+					margin: 0;
+					background-color: #d4c9c2;
+					padding: 15px 0 0 0;
 				 }
 
 				 .content{
