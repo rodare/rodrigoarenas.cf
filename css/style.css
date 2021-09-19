@@ -10,7 +10,7 @@ a{
 	color:inherit;
 }
 a:hover{
-	color:#0ab204;
+	color:#068405;
 }
 li a {
 	font-weight: bold;
@@ -21,14 +21,14 @@ li a {
 li a:hover {
 	font-weight: bold;
 	text-decoration: none;
-	color: #0ab204;
+	color: #068405;
 }
 
 .dropbtn:hover {
-	color:#0ab204;
+	color:#068405;
 }
 .dropdown-content a:hover{
-	color:#0ab204;
+	color:#068405;
 }
 	.wrapper {
 		width: 100%;
@@ -117,7 +117,7 @@ header h3{
     display: none;
 	position: absolute;
     width: 100%;
-    background-color: #0ab204;
+    background-color: #068405;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -162,7 +162,7 @@ ul.elmenu {
 	}
 
 	li.elmenu a:hover, .elmenu.dropdown:hover .elmenu.dropbtn {
-		background-color: #0ab204;
+		background-color: #068405;
 	}
 
 	li.dropdown.elmenu {
@@ -186,7 +186,7 @@ ul.elmenu {
 		text-align: left;
 	}
 
-	.elmenu.dropdown-content a:hover {background-color: #0ab204;}
+	.elmenu.dropdown-content a:hover {background-color: #068405;}
 
 	.elmenu.dropdown:hover .elmenu.dropdown-content {
 		display: block;
@@ -225,7 +225,7 @@ aside ul {
 }
 
 aside ul li a:hover{
-	color:#0ab204;
+	color:#068405;
 }
 
 footer {
