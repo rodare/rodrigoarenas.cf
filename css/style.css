@@ -81,8 +81,8 @@ header h3{
 .elheader{
 	text-decoration: none;
 	display: block;
-	height: 74px;
-	font-size: 36px;
+	height: 42px;
+	font-size: 29px;
 	color: black;
 	background-color: #d4c9c2;
 	position: relative;
@@ -102,8 +102,8 @@ header h3{
 .dropbtn {
     background-color: #d4c9c2;
     color: black;
-    padding: 8px;
-    font-size: 13px;
+    padding: 6px;
+    font-size: 16px;
     border: none;
     cursor: pointer;
 }
@@ -199,21 +199,20 @@ ul.elmenu {
 
  }
 
-
 .content{
 	background: #d4c9c2;
 	float: right;
-	width: 88%;
+	width: 86%;
 	padding: 1%;
-	margin-top: 100px;
+	margin-top: 65px;
 	z-index: -1;
 
 }
 aside {
 	float: left;
 	width: 8%;
-	padding: 1%;
-	margin-top:100px;
+	padding: 0%;
+	margin-top:60px;
 	position:fixed;
 	-webkit-position:fixed;
 	z-index: 1;
@@ -367,13 +366,23 @@ img {
 	}
 
 	 .elheader{
-		text-decoration: none;
-		margin: auto;
-		height: 80px;
-		font-size: 40px;
-		position: relative;
+		height: 60px;
+		font-size: 49px;
+		margin-top: 10px;
 	 }
 
+	 .content{
+	 	width: 88%;
+	 	padding: 1%;
+	 	margin-top: 100px;
+	 }
+
+	 aside {
+	 	width: 8%;
+	 	padding: 1%;
+	 	margin-top:85px;
+		font-size: 20px;
+	 }
 	   .headline,
 	   .headline a,
 	   .headline a:link,
@@ -412,9 +421,7 @@ img {
 
 		 .dropbtn {
 		     padding: 12px;
-		     font-size: 17px;
-		     border: none;
-		     cursor: pointer;
+		     font-size: 20px;
 
 		 }
 		 .dropdown-content a{
@@ -429,6 +436,30 @@ img {
 	       .wrapper {
 	           width: 1100px;
 	       }
+
+				 .elheader{
+					height: 70px;
+					font-size: 53px;
+					margin-top:15px;
+				 }
+
+				 .content{
+				 	width: 88%;
+				 	padding: 1%;
+				 	margin-top: 120px;
+				 }
+
+				 .dropbtn {
+				     padding: 12px;
+				     font-size: 20px;
+					}
+
+				 aside {
+				 	width: 8%;
+				 	padding: 1%;
+				 	margin-top:100px;
+					font-size: 20px;
+				 }
 
 	       .img-info p {
 	           padding: 20px 0px 0px 0px;
