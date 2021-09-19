@@ -74,7 +74,10 @@ header h3{
 	}
 
 .searchBox {
-		width: 40%; float: right; margin-top: 10px; background-color: #d4c9c2;
+		width: 40%;
+		float: right;
+		margin-top: 10px;
+		background-color: #d4c9c2;
 	}
 
 .elheader{
@@ -283,7 +286,6 @@ img {
 	    font-family: arial;
 	    font-size: 30px;
 	    color: #111;
-	    line-height: 0px;
 	  }
 
 	.gallery-position{
